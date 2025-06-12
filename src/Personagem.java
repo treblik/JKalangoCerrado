@@ -13,7 +13,7 @@ public abstract class Personagem {
 
     public abstract void cansado();
 
-    public abstract void dano();
+  
 
     public void setNome(String nome) {
         this.nome = nome;

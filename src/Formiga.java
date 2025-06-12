@@ -72,7 +72,9 @@ public class Formiga extends Personagem implements IArmamento{
         // TODO Auto-generated method stub
         System.out.println("Ataca com 4 formas");
     }
-    
+
+
+ 
 }
 
 

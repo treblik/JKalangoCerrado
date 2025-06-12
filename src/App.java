@@ -1,5 +1,9 @@
+import br.com.jkalango.view.JIntro;
+ 
+
 public class App {
     public static void main(String[] args) throws Exception {
+        new JIntro();
         Formiga f  = new Formiga();
        /* f.setNome("------Formiga----" + "\n");
         System.out.println("\n");
@@ -38,11 +42,14 @@ public class App {
         A.dormir(10);
         System.out.println("\n");
         A.comer();*/ 
+        
         f.atacar();
         f.mover();
         Kalango kal = new Kalango();
 
         kal.atacar();
         kal.mover();
+      
+        
     }
 }

@@ -15,15 +15,9 @@ public class Kalango extends Personagem implements IArmamento{
         }
     }
         
-    @Override
-    public void dano(){
-        boolean continuar=true;
-        super.dano(energia);
-        if (continuar) {
-            
-        }
-    }
-
+   
+    
+  
     @Override
     public void fazerSom() {
         System.out.println( "Fazendo som: Tssss!");
